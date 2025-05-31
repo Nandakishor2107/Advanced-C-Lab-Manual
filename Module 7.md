@@ -16,12 +16,30 @@ Else
  
 Program:
 
-//type your code here
+```
+#include <stdio.h>
+
+struct vaccde
+{
+    int age;
+    char name[30];
+}vd;
+
+int main()
+{
+    scanf("%d %[^\n]", &vd.age, vd.name);
+    if(vd.age > 18)
+    printf("Age:%d\nName:%svaccine:%d\neligibility:yes", vd.age, vd.name, vd.age);
+    else
+    printf("Age:%d\nName:%svaccine:%d\neligibility:no", vd.age, vd.name, vd.age);
+}
+```
 
 
 Output:
 
-//paste your output here
+![image](https://github.com/user-attachments/assets/5c7cca90-d06c-4b62-9944-0dc7eba975c3)
+
 
 
 Result:
